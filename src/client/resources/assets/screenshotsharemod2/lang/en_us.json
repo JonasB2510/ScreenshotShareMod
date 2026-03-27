@@ -1,0 +1,14 @@
+{
+  "gui.screenshotsharemod2.title": "Screenshot Share",
+  "button.screenshotsharemod2.upload": "Upload",
+  "button.screenshotsharemod2.cancel": "Cancel",
+  "text.screenshotsharemod2.onclick": "Click to upload!",
+  "text.screenshotsharemod2.error.nofile": "No file for UUID: %s",
+  "text.screenshotsharemod2.error.invalid_uuid": "Invalid UUID: %s",
+  "text.screenshotsharemod2.warn.provide_uuid": "Please provide a UUID",
+  "toast.screenshotsharemod2.upload": "Uploading...",
+  "toast.screenshotsharemod2.upload_desc": "Your image is being uploaded.",
+  "text.screenshotsharemod2.uploaded": "Uploaded: %s",
+  "text.screenshotsharemod2.shared": "Shared Screenshot: %s",
+  "text.screenshotsharemod2.share": "[SHARE]"
+}

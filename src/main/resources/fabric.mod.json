@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "screenshotsharemod2",
+  "version": "${version}",
+  "name": "ScreenshotShareMod2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/screenshotsharemod2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "de.jonasb2510.screenshotsharemod2.client.Screenshotsharemod2DataGenerator"
+    ],
+    "client": [
+      "de.jonasb2510.screenshotsharemod2.client.Screenshotsharemod2Client"
+    ],
+    "main": [
+      "de.jonasb2510.screenshotsharemod2.Screenshotsharemod2"
+    ]
+  },
+  "mixins": [
+    "screenshotsharemod2.mixins.json",
+    {
+      "config": "screenshotsharemod2.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

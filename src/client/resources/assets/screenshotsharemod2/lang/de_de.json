@@ -1,0 +1,14 @@
+{
+  "gui.screenshotsharemod2.title": "Aufnahmen teilen",
+  "button.screenshotsharemod2.upload": "Hochladen",
+  "button.screenshotsharemod2.cancel": "Abbrechen",
+  "text.screenshotsharemod2.onclick": "Klicke hier um deine Aufnahme hochzuladen!",
+  "text.screenshotsharemod2.error.nofile": "Keine Datei mit dieser UUID: %s",
+  "text.screenshotsharemod2.error.invalid_uuid": "Keine valide UUID: %s",
+  "text.screenshotsharemod2.warn.provide_uuid": "Bitte gebe eine UUID an!",
+  "toast.screenshotsharemod2.upload": "Hochladen...",
+  "toast.screenshotsharemod2.upload_desc": "Deine Datei wird hochgeladen.",
+  "text.screenshotsharemod2.uploaded": "Hochgeladen: %s",
+  "text.screenshotsharemod2.shared": "Geteilte Aufnahme: %s",
+  "text.screenshotsharemod2.share": "[TEILEN]"
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.jonasb2510.screenshotsharemod2.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ScreenshotRecorderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
