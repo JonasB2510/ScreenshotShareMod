@@ -80,7 +80,7 @@ public class Screenshotsharemod2Client implements ClientModInitializer {
                 String arg = parts[2];
 
                 if (arg.startsWith("http")) {
-                    if (isValidUrl(arg)) {
+                    if (isValidUrl(arg) && arg.matches("^https://files//.catbox//.moe/[a-zA-Z0-9]+//.png$")) {
                         try {
                             MinecraftClient.getInstance().inGameHud.getChatHud().addMessage(
                                     Text.translatable("text.screenshotsharemod2.shared", arg).setStyle(Style.EMPTY.withClickEvent(new ClickEvent.OpenUrl(new URI(arg))).withColor(Formatting.BLUE))

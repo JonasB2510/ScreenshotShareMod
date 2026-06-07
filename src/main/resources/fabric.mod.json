@@ -2,10 +2,13 @@
   "schemaVersion": 1,
   "id": "screenshotsharemod2",
   "version": "${version}",
-  "name": "ScreenshotShareMod2",
+  "name": "ScreenshotShareMod",
   "description": "",
-  "authors": [],
-  "contact": {},
+  "authors": ["JonasB2510"],
+  "contact": {
+    "homepage": "https://github.com/JonasB2510/ScreenshotShareMod",
+    "issues": "https://github.com/JonasB2510/ScreenshotShareMod/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/screenshotsharemod2/icon.png",
   "environment": "*",
@@ -31,5 +34,13 @@
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.source": "https://github.com/JonasB2510/ScreenshotShareMod"
+      },
+      "badges": []
+    }
   }
 }
